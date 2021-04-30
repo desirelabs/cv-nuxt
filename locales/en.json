@@ -1,0 +1,114 @@
+{
+  "identity": "Franck LEBAS",
+  "title": "JavaScript and TypeScript developer",
+  "coordinate": {
+    "title": "Coordinates",
+    "address": "5 boulevard Baptistin Cayol\nRésidence l'Escale Bat A\n13008 Marseille, FRANCE",
+    "email": "francklebas@protonmail.ch",
+    "phone": "0698054772"
+  },
+  "skills": {
+    "title": "Skills",
+    "skills": [
+      {
+        "title": "HTML5, CSS3, JavaScript, TypeScript",
+        "level": 4
+      },
+      {
+        "title": "ReactJS",
+        "level": 4
+      },
+      {
+        "title": "VueJS",
+        "level": 3
+      },
+      {
+        "title": "Web architecture",
+        "level": 4
+      },
+      {
+        "title": "Vim, IntellijIDEA, Visual Studio Code",
+        "level": 4
+      }
+    ]
+  },
+  "licences": {
+    "title": "Licences",
+    "licences": ["Motorcycle", "Car"]
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "hobbies": [
+      "Family",
+      "Cooking",
+      "Video games",
+      "Movies",
+      "Coding"
+    ]
+  },
+  "quote": "13 years in web development, specialist of ReactJS and TypeScript, trainer. I analyse business issues in order to enhance business values",
+  "experiences": {
+    "title": "Experiences",
+    "experiences": [
+      {
+        "title": "Web and mobile development service provider",
+        "date": "Since 2008",
+        "company": "We Are Lion",
+        "description": "Web development for clients like :\n- Prologia SA\n- La Française des Jeux\n- Docapost\n- ATSouhaits\n- DZ-Skischool\n- Brandmining Consulting\n- IDNeuve"
+      },
+      {
+        "title": "Lead frontend architect and developer",
+        "date": "2020/08 2021/02",
+        "company": "Prologia SAS",
+        "description": "Responsible for creating and developing a frontend department in a fintech J2E company. The company became autonomous in a field it used to outsource."
+      },
+      {
+        "title": "Fullstack TypeScript developer",
+        "date": "2019/06 2020/02",
+        "company": "La Française des Jeux",
+        "description": "Responsible for creating the new architecture and migrating the registration and connection tunnel and developing Rest services via NestJS."
+      },
+      {
+        "title": "Lead frontend developer and architect",
+        "date": "2017/07 2019/02",
+        "company": "Inovalia",
+        "description": "Technical referent on implementation and frontend architecture issues, development of interfaces based on models."
+      },
+      {
+        "title": "Web designer and frontend developer",
+        "date": "2013/10 2017/01",
+        "company": "Nouvelle Marque",
+        "description": "Production management of WordPress projects, integration of models, creation of WordPress plugins, maintenance of hosting and site deployments."
+      }
+    ]
+  },
+  "studies": {
+    "title": "Studies",
+    "studies": [
+      {
+        "title": "BTS Visual Communication",
+        "date": "2008 2010",
+        "school": "Atlas (France)",
+        "description": "Training in image communication fields"
+      },
+      {
+        "title": "Title of graphic designer",
+        "date": "2007 2008",
+        "school": "Mach 3 info",
+        "description": "Training in the profession of graphic designer and layout"
+      },
+      {
+        "title": "Baccalauréat Littérature",
+        "date": "2004",
+        "school": "Marcel Pagnol High school (France)",
+        "description": "Humanities continuation project"
+      }
+    ]
+  },
+  "languages": {
+    "lang": "English",
+    "eng": "English",
+    "fr": "Français"
+  },
+  "print": "Print"
+}

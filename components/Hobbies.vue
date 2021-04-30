@@ -1,7 +1,7 @@
 <template>
   <div class="hobbies">
-    <SectionTitle title="Centres d'intérêt" />
-    <div v-for="hobby in hobbies" :key="hobby">{{ hobby }}</div>
+    <SectionTitle :title="$t('hobbies.title')" />
+    <div v-for="hobby in $t('hobbies.hobbies')" :key="hobby">{{ hobby }}</div>
   </div>
 </template>
 

@@ -1,9 +1,5 @@
 <template>
-  <blockquote>
-    13 ans d'expérience en développement web, spécialiste ReactJS et TypeScript.
-    Animateur de formations. Étude de problématiques métiers en vue d'offrir des
-    solutions adaptées.
-  </blockquote>
+  <blockquote>&laquo;{{ $t("quote") }}&raquo;</blockquote>
 </template>
 
 <script>
@@ -16,5 +12,12 @@ export default {
 blockquote {
   margin-top: 0;
   margin-left: 0;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+@media print {
+  blockquote {
+    font-size: 1.3rem;
+  }
 }
 </style>

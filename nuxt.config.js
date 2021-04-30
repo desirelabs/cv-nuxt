@@ -1,3 +1,5 @@
+import i18n from "./config/i18n"
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -17,7 +19,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ["~/assets/css/main"],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -31,6 +33,24 @@ export default {
     "@nuxt/typescript-build",
     // https://go.nuxtjs.dev/stylelint
     "@nuxtjs/stylelint-module",
+    [
+      "nuxt-i18n",
+      {
+        strategy: "prefix",
+        defaultLocale: "fr",
+        locales: [
+          {
+            code: "en",
+            name: "English",
+          },
+          {
+            code: "fr",
+            name: "Français",
+          },
+        ],
+        vueI18n: i18n,
+      },
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

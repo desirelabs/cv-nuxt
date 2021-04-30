@@ -1,7 +1,21 @@
 <template>
-  <div class="main-layout">
-    <Sidebar />
-    <Main />
+  <div>
+    <div class="layout">
+      <Sidebar>
+        <Identity />
+        <Title />
+      </Sidebar>
+      <Main> <Caption /> </Main>
+    </div>
+    <div class="layout">
+      <Sidebar>
+        <Coordinates />
+        <Skills />
+        <Licences />
+        <Hobbies
+      /></Sidebar>
+      <Main> <Experiences /></Main>
+    </div>
   </div>
 </template>
 
@@ -17,12 +31,16 @@ body {
   padding: 0;
   margin: 0;
 }
-.main-layout {
-  display: grid;
-  grid-template-columns: 30% 1fr;
-  grid-gap: 1.875rem;
+.layout {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   width: 100%;
-  max-width: 100vw;
-  min-height: 100vh;
+  max-width: 1140px;
+}
+@media (max-width: 767px) {
+  .layout {
+    flex-wrap: wrap;
+  }
 }
 </style>

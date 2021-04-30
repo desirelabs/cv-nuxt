@@ -1,0 +1,114 @@
+{
+  "title": "Développeur JavaScript et TypeScript",
+  "identity": "Franck LEBAS",
+  "coordinate": {
+    "title": "Coordonnées",
+    "address": "5 boulevard Baptistin Cayol\nRésidence l'Escale Bat A\n13008 Marseille",
+    "email": "francklebas@protonmail.ch",
+    "phone": "0698054772"
+  },
+  "skills": {
+    "title": "Compétences",
+    "skills": [
+      {
+        "title": "HTML5, CSS3, JavaScript, TypeScript",
+        "level": 4
+      },
+      {
+        "title": "ReactJS",
+        "level": 4
+      },
+      {
+        "title": "VueJS",
+        "level": 3
+      },
+      {
+        "title": "Web architecture",
+        "level": 4
+      },
+      {
+        "title": "Vim, IntellijIDEA, Visual Studio Code",
+        "level": 4
+      }
+    ]
+  },
+  "licences": {
+    "title": "Permis",
+    "licences": ["A - Moto", "B - Véhicules légers"]
+  },
+  "hobbies": {
+    "title": "Centres d'intérêt",
+    "hobbies": [
+      "Famille",
+      "Cuisine",
+      "Jeux vidéo",
+      "Cinéma",
+      "Coder"
+    ]
+  },
+  "quote": "13 ans d'expérience en développement web, spécialiste ReactJS et TypeScript. Animateur de formations. Étude de problématiques métiers en vue d'offrir des solutions adaptées",
+  "experiences": {
+    "title": "Expériences professionnelles",
+    "experiences": [
+      {
+        "title": "Prestataire de service en développement web et mobile",
+        "date": "Depuis 2008",
+        "company": "We Are Lion",
+        "description": "Prestataire de service pour le développement d'interfaces pour des clients tels que :\n- Prologia SA\n- La Française des Jeux\n- Docapost\n- ATSouhaits\n- DZ-Skischool\n- Brandmining Consulting\n- IDNeuve"
+      },
+      {
+        "title": "Lead Développeur et architecte frontend",
+        "date": "08/2020 02/2021",
+        "company": "Prologia SAS",
+        "description": "En charge de la création d'un pôle frontend au sein d'une entreprise spécialisée dans le domaine financier, formation d'une équipe de 8 développeurs backend J2EE. L'entreprise est devenue autonome dans un domaine de compétences qu'elle était auparavant forcée de sous-traiter"
+      },
+      {
+        "title": "Développeur fullstack TypeScript",
+        "date": "06/2019 02/2020",
+        "company": "La Française des Jeux",
+        "description": "Prestataire de service pour le développement frontend, refonte du tunnel de connexion et d'authentification de l'application web, création de service proxy en nodejs"
+      },
+      {
+        "title": "Lead Développeur et architecte frontend",
+        "date": "07/2017 02/2019",
+        "company": "Inovalia",
+        "description": "Référent technique sur les questions d’implémentation et d’architecture frontend, Développement d’interfaces sur la base de maquettes"
+      },
+      {
+        "title": "Web designer intégrateur et développeur",
+        "date": "10/2013 01/2017",
+        "company": "Nouvelle Marque",
+        "description": "Gestion de la production de projets WordPress, intégration de maquettes, création de plugins WordPress, maintenance des hébergements et déploiements sites"
+      }
+    ]
+  },
+  "studies": {
+    "title": "études",
+    "studies": [
+      {
+        "title": "BTS Communication Visuelle",
+        "date": "2008 2010",
+        "school": "Atlas (France)",
+        "description": "Formation aux métiers de la communication par l'image"
+      },
+      {
+        "title": "Titre professionnel d'info-graphiste",
+        "date": "2007 2008",
+        "school": "Mach 3 info",
+        "description": "Formation au métier d'infographiste metteur en page"
+      },
+      {
+        "title": "Baccalauréat Littérature",
+        "date": "2004",
+        "school": "Lycée Marcel Pagnol (Marseille)",
+        "description": "Projet de poursuite d'études en sciences humaines"
+      }
+    ]
+  },
+  "languages": {
+    "lang": "Français",
+    "eng": "English",
+    "fr": "Français"
+  },
+  "print": "Imprimer"
+}

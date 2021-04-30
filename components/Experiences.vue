@@ -1,7 +1,11 @@
 <template>
   <div>
-    <SectionTitle title="Expériences professionnelles" />
-    <div v-for="experience in experiences" :key="experience.date" class="grid">
+    <SectionTitle :title="$t('experiences.title')" />
+    <div
+      v-for="experience in $t('experiences.experiences')"
+      :key="experience.date"
+      class="grid"
+    >
       <div class="date">{{ experience.date }}</div>
       <div class="icon"></div>
       <div>
@@ -11,7 +15,11 @@
       </div>
     </div>
     <SectionTitle title="études" />
-    <div v-for="diploma in diplomas" :key="diploma.date" class="grid">
+    <div
+      v-for="diploma in $t('studies.studies')"
+      :key="diploma.date"
+      class="grid"
+    >
       <div class="date">{{ diploma.date }}</div>
       <div class="icon"></div>
       <div>

@@ -1,26 +1,16 @@
 <template>
-  <div class="main">
-    <Caption />
-    <br />
-    <Experiences />
-  </div>
+  <div class="main"><slot></slot></div>
 </template>
 
 <script>
-import Caption from "@/components/Caption"
-import Experiences from "@/components/Experiences"
-
 export default {
   name: "Main",
-  components: {
-    Caption,
-    Experiences,
-  },
 }
 </script>
 
 <style scoped>
 .main {
-  padding: 1.875rem 1.875rem 1.875rem 0;
+  padding: 0 1.875rem;
+  min-width: 65%;
 }
 </style>

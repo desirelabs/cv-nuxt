@@ -1,12 +1,7 @@
 <template>
   <div class="container">
-    <div>
-      <h1 class="title">Franck LEBAS<br />Curriculum vitæ</h1>
-      <div class="links">
-        <NuxtLink to="/english">English</NuxtLink>
-        <NuxtLink to="/français">Français</NuxtLink>
-      </div>
-    </div>
+    <Cv />
+    <Lang />
   </div>
 </template>
 
@@ -23,19 +18,6 @@ export default Vue.extend({})
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.links {
-  padding-top: 15px;
+  padding: 2rem 0;
 }
 </style>

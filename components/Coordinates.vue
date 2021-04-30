@@ -1,11 +1,9 @@
 <template>
   <div class="coordinates">
-    <SectionTitle title="Coordonnées" />
+    <SectionTitle :title="$t('coordinate.title')" />
     <Address />
-    <br />
-    <Email mailto="francklebas@protonmail.ch" />
-    <br />
-    <Phone tel="0698054772" />
+    <Email :mailto="$t('coordinate.email')" />
+    <Phone :tel="$t('coordinate.phone')" />
   </div>
 </template>
 

@@ -1,8 +1,6 @@
 <template>
-  <div>
-    5 boulevard Baptistin Cayol<br />
-    Résidence l'Escale Bat A<br />
-    13008 Marseille
+  <div class="address">
+    {{ $t("coordinate.address") }}
   </div>
 </template>
 

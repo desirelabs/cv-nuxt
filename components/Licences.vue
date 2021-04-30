@@ -1,7 +1,7 @@
 <template>
   <div class="licences">
-    <SectionTitle title="Permis de conduire" />
-    <div v-for="licence in licences" :key="licence">
+    <SectionTitle :title="$t('licences.title')" />
+    <div v-for="licence in $t('licences.licences')" :key="licence">
       {{ licence }}
     </div>
   </div>

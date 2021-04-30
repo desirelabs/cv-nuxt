@@ -1,5 +1,5 @@
 <template>
-  <div class="title">Développeur<br />JavaScript/<br />TypeScript</div>
+  <div class="title">{{ $t("title") }}</div>
 </template>
 
 <script>
@@ -15,6 +15,5 @@ export default {
   text-transform: uppercase;
   font-weight: bold;
   margin: 0;
-  white-space: pre-wrap;
 }
 </style>

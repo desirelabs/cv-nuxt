@@ -1,5 +1,5 @@
 <template>
-  <h1>Franck LEBAS</h1>
+  <h1>{{ $t("identity") }}</h1>
 </template>
 
 <script>

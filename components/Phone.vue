@@ -14,5 +14,7 @@ export default {
 <style scoped>
 .phone {
   display: block;
+  color: #458588;
+  font-weight: bold;
 }
 </style>
