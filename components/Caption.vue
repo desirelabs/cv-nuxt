@@ -1,10 +1,10 @@
 <template>
-  <blockquote>&laquo;{{ $t("quote") }}&raquo;</blockquote>
+  <blockquote>&laquo;{{ $t('quote') }}&raquo;</blockquote>
 </template>
 
 <script>
 export default {
-  name: "Caption",
+  name: 'Caption',
 }
 </script>
 
@@ -18,6 +18,7 @@ blockquote {
 @media print {
   blockquote {
     font-size: 1.3rem;
+    margin: 1rem 0 0 2.5rem;
   }
 }
 </style>

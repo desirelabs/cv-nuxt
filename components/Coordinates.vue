@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import SectionTitle from "@/components/SectionTitle"
-import Address from "@/components/Address"
-import Email from "@/components/Email"
-import Phone from "@/components/Phone"
+import SectionTitle from '@/components/SectionTitle'
+import Address from '@/components/Address'
+import Email from '@/components/Email'
+import Phone from '@/components/Phone'
 export default {
-  name: "Coordinates",
+  name: 'Coordinates',
   components: {
     SectionTitle,
     Address,

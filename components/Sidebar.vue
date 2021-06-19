@@ -13,4 +13,9 @@ nav {
   padding: 0 1.875rem;
   min-width: 35%;
 }
+@media print {
+  nav {
+    break-after: always;
+  }
+}
 </style>

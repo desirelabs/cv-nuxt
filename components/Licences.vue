@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import SectionTitle from "@/components/SectionTitle"
+import SectionTitle from '@/components/SectionTitle'
 export default {
-  name: "Licences",
+  name: 'Licences',
   components: { SectionTitle },
   data() {
     return {
-      licences: ["A - Moto", "B - Véhicule léger"],
+      licences: ['A - Moto', 'B - Véhicule léger'],
     }
   },
 }
