@@ -17,11 +17,6 @@ html {
   box-sizing: border-box;
 }
 body {
-  background: linear-gradient(
-    110deg,
-    var(--yellow-400) 60%,
-    var(--yellow-300) 60%
-  );
   padding: 0;
   margin: 0;
 }
